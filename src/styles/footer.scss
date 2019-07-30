@@ -1,31 +1,70 @@
 
 .footerWrapper{
     background-color: black;
-    color: white;
-    position: initial;
-    .logo2{
-        font-size: 18px;
-        line-height: 23px;
-    }
-    .categories{
-        width: 90%;
-        margin: auto;
-        .group{
+    color: white; 
+    .footerNav{
+        display: flex;
+        flex-direction: column;
+        .logo2{
+            margin-top: 32px;
+            margin-left: 16px;
+            .logo__text{
+                text-decoration: none;
+                font-size: 24px;
+                color: white;
+            }
+        }
+        ul{
             list-style-type:none;
-            margin-left: 0px;
+            margin: 0px;
+            padding: 0px;
+        }
+        li{
+            margin-left: 33.63px;
+        }
+        a{
+            color: white;
+            font-size: 16px;
+            line-height: 21px;
+            line-height: 21px;
+        }
+        .footerNav__common{
+            list-style-type:none;
             padding-left: 0px;
-            li{
-                margin-left: 17.63px;
-                a{
-                    color: white;
-                    font-size: 16px;
-                    line-height: 21px;
+            margin-top: 12px;
+        }
+        .footerNav__contacts{
+            margin-left:33.63px;
+            margin-top: 32px;
+            .definition{
+                font-size: 13px;
+                opacity: 0.75;
+            }
+        }
+        .categories{
+            .group{
+                margin-top: 32px;
+                .group__titles{
+                    margin-left: 16px;
+                    font-size: 18px;
+                    line-height: 23px;
                 }
             }
-            .group__titles{
-                margin-left: 0px;
-                font-size: 18px;
-                line-height: 23px;
+        }
+        .pageInfo{
+            margin-top: 56px;
+            margin-left: 15px;
+            margin-bottom: 72px;
+            color: #666666;
+            font-size: 13px;
+            .pageInfo__copywright{
+
+            }
+            .pageInfo__personalRules{
+                margin-top: 12px;
+            }
+            .pageInfo__developers{
+                margin-top: 12px;
             }
         }
     }
