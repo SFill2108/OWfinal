@@ -1,0 +1,3 @@
+$('.offerSlide').slick({
+    arrows: false,
+});

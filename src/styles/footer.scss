@@ -1,0 +1,32 @@
+
+.footerWrapper{
+    background-color: black;
+    color: white;
+    position: initial;
+    .logo2{
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .categories{
+        width: 90%;
+        margin: auto;
+        .group{
+            list-style-type:none;
+            margin-left: 0px;
+            padding-left: 0px;
+            li{
+                margin-left: 17.63px;
+                a{
+                    color: white;
+                    font-size: 16px;
+                    line-height: 21px;
+                }
+            }
+            .group__titles{
+                margin-left: 0px;
+                font-size: 18px;
+                line-height: 23px;
+            }
+        }
+    }
+}
