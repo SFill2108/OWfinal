@@ -1,5 +1,45 @@
-
-
+.navigationWrapper{
+    width: 100% ;
+    margin: auto;
+    display: flex;
+    background-color: black;
+    position: fixed;
+    .logo{
+        margin-top: 8px;
+        margin-left: 16px;
+        .logo__text{
+            text-decoration: none;
+            font-size: 24px;
+        }
+    }
+    .navigation{
+        display: flex;
+        width: 55%;
+        height: 21px ;
+        margin-top: 13px;
+        margin-left: 32px;
+        overflow: scroll;
+        .navLink{
+            margin-left: 24px;
+        }
+        .first{
+            margin-left: 0px;
+        }
+    }
+    .cart{
+        margin-left: 16px;
+        margin-top: 16px;
+        .cart__counter{
+            
+        }
+        .cart__order{
+            display: none;
+        }
+    }
+    a{
+        color: white;
+    }
+}
 
 @media only screen and (min-width : 1200px){
 
