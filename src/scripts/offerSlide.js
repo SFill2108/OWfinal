@@ -1,3 +1,3 @@
-$('.offerSlide').slick({
+$('.banner').slick({
     arrows: false,
 });
