@@ -1,3 +1,4 @@
+@media (max-width: 1199px) {
 .content{
     .banner{
         width: 320px;
@@ -146,6 +147,180 @@
             background-repeat: no-repeat;
         }
     }
-
 }
+}
+@media (min-width: 1200px) {
+.content{
+    .banner{
 
+        .slide1{
+            width: 320px;
+            height: 600px;
+            background-image: url("../assets/img/slider/2.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .slide2{
+            width: 320px;
+            height: 600px;
+            background-image: url("../assets/img/slider/1.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .slide3{
+            width: 320px;
+            height: 600px;
+            background-image: url("../assets/img/slider/3.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .slide4{
+            width: 320px;
+            height: 600px;
+            background-image: url("../assets/img/slider/4.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+    .txt{
+        display: flex;
+        width: 1136px;
+        margin: auto;
+    }
+    .discriptonWrapper{
+        margin-top: 24px;
+        width: 240px;
+        &__text{
+            margin-top: 24px;
+            font-size: 18px;
+            line-height: 23px;
+        }
+    }
+    .categories{
+        margin-left: 16px;
+        margin-top: 48px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr ;
+        .group{
+            list-style-type:none;
+            margin: 0px;
+            padding: 0px;
+            font-size: 16px;
+            margin-right: 32px;
+            li{
+                margin-bottom: 8px;
+                a{
+                    color: #4541FE;
+                    line-height: 21px;
+                }
+            }
+        }
+        .group__titles{
+            font-size: 18px;
+            margin-bottom: 12px;
+        }
+    }
+    .item1{
+        background-color: #FFA88C;
+        height: 320px;
+        width: 464px;
+        .item1__text{
+            font-size: 32px;
+            line-height: 41px;
+            text-decoration-line: underline;
+            margin-left: 16px;
+            // padding-top: 24px;
+        }
+        .item1__textDescript{
+            font-size: 16px;
+            line-height: 21px;
+            margin-left: 16px;
+        }
+        .item1__photo1{
+            margin-left: 12px;
+            margin-bottom: 15px;
+        }
+    }
+    .item2{
+        margin-top: 24px;
+        width: 464px;
+        height: 160px;
+        background-color: #7482FF;
+        color: white;
+        .item2__text{
+            font-size: 32px;
+            line-height: 41px;
+            text-decoration-line: underline;
+            margin-left: 16px;
+        }
+        .item2__textDescript{
+            margin-left: 16px;
+            font-size: 16px;
+            line-height: 21px;
+            margin-top: 8px;
+        }
+    }
+    .item1_2wrpaper{
+        display: flex;
+        flex-direction: column;
+    }
+    .item1_2_3wrpaper{
+        display: flex;
+        width: 1136px;
+        margin: auto;
+    }
+    .item3{
+        width: 648px;
+        height: 504px;
+        background-color:#FFE9FD;;
+        margin-left: 24px;
+        .item3__text{
+            font-size: 32px;
+            line-height: 41px;
+            text-decoration-line: underline;
+            margin-left: 16px;
+        }
+        .item3__textDescript{
+            margin-left: 16px;
+            font-size: 16px;
+            line-height: 21px;
+            margin-top: 8px;
+        }
+        .item3__img{
+            height: 240px;
+            padding-bottom: 30px;
+        }
+    }
+    .item4{
+        width: 1136px;
+        height: 480px;
+        margin: auto;
+        margin-top: 24px;
+        background-color: #F3F3F3;
+        .item4__text{
+            font-size: 32px;
+            line-height: 41px;
+            text-decoration-line: underline;
+            margin-left: 16px;
+        }
+        .item4__textDescript{
+            margin-left: 16px;
+            font-size: 16px;
+            line-height: 21px;
+            margin-top: 8px;
+        }
+        .item4__img{
+            height: 350px;
+            background-image: url("../assets/img/descitem4.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+}
+  }
