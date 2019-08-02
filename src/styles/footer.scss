@@ -73,6 +73,7 @@
 
 @media only screen and (min-width : 1200px){
 .footerWrapper{
+    margin-top: 72px;
     background-color: black;
     color: white; 
     .footerNav{
@@ -126,20 +127,26 @@
             }
         }
         .pageInfo{
+            display: flex;
             margin-top: 56px;
             margin-left: 15px;
             margin-bottom: 72px;
             color: #666666;
             font-size: 13px;
             .pageInfo__copywright{
-
+                margin-bottom:32px;
+                margin-right: 24px;
             }
             .pageInfo__personalRules{
-                margin-top: 12px;
+                margin-bottom:32px;
+                margin-right: 24px;
             }
             .pageInfo__developers{
-                margin-top: 12px;
+                margin-bottom:32px;
             }
+        }
+        .section{
+            display: flex;
         }
     }
 }
