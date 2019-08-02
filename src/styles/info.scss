@@ -1,0 +1,94 @@
+@media only screen and (max-width : 1199px){
+.infoWrapper{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    .about{
+        margin-top: 56px;
+        margin-left:16px;
+        .about__headline{
+            font-size: 32px;
+            line-height: 41px;
+        }
+        .text{
+            font-size: 18px;
+            line-height: 23px;
+            margin-top: 24px;
+        }
+    }
+    .contacts{
+        background-color: #F2F2F2;
+        .contacts__adress{
+            margin-top: 8px;
+            margin-left: 10px;
+        }
+        .contacts__communications{
+            margin-top: 24px;
+            margin-left: 10px;
+        }
+        .contacts__requisites{
+            margin-top: 24px;
+            margin-left: 10px;
+        }
+        .contacts__bank{
+            margin-top: 24px;
+            margin-left: 10px;
+        }
+        .contacts__generalManager{
+            margin-top: 24px;
+            margin-left: 10px;
+        }
+    }
+}
+}
+@media only screen and (min-width : 1200px){
+    .infoWrapper{
+        width: 1136px;
+        margin: auto;
+        display: flex;
+        .about{
+            margin-top: 72px;
+            margin-left:16px;
+            width: 464px;
+            .about__headline{
+                font-size: 32px;
+                line-height: 41px;
+            }
+            .text{
+                font-size: 18px;
+                line-height: 23px;
+                margin-top: 24px;
+            }
+        }
+        .contacts{
+            width: 586px;
+            height: 354px;
+            margin-top: 126px;
+            margin-left: 86px;
+            background-color: #F2F2F2;
+            .contacts__adress{
+                margin-top: 27px;
+                margin-left: 26px;
+            }
+            .contacts__communications{
+                margin-top: 24px;
+                margin-left: 26px;
+            }
+            .contacts__requisites{
+                margin-top: 24px;
+                margin-left: 26px;
+                margin-right: 300px;
+            }
+            .contacts__bank{
+                margin-top: 24px;
+                margin-left: 26px;
+                margin-right: 140px;
+            }
+            .contacts__generalManager{
+                margin-top: 24px;
+                margin-left: 26px;
+
+            }
+        }
+    }
+}
