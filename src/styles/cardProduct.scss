@@ -1,0 +1,173 @@
+.cardProduct__wrapper{
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-right: auto;
+    margin-left: auto;
+    .productSlider{
+        .productSlider__main{
+            padding-top: 72px;
+            justify-content: center;
+            max-width:656px ;
+            margin: auto;
+            .slide{
+                img{
+                    object-fit: contain;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .productSlider__navigation{
+            // max-width: 320px;
+            justify-content: center;
+            margin: auto;
+            margin-right: -16px;
+            .slideNav{
+                width: 75px;
+                height: 75px;
+                img{
+                    object-fit: contain;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+    .productName{
+        font-size: 32px;
+        line-height: 41px;
+    }
+    .parametrsSection{
+        background-color: #F2F2F2;
+        margin-left: -16px;
+        margin-right: -16px;
+        .productParametrs{
+            padding-top: 24px;
+            padding-left: 16px;
+            padding-right: 16px;
+            .colorBar{
+                display: flex;
+                flex-direction: column;
+                .colorBar__color{
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                }
+            }
+            .sizeBar{
+                display: flex;
+                .sizeBar__size{
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    margin-right: 12px;
+                }
+            }
+            input {
+                position: absolute;
+                left: -9999px;
+            }
+            label {
+                color: #666666;
+                padding: 8px;
+                border: 1px solid #DDDDDD;
+                border-radius: 8px;
+            }
+            input:checked + label {
+                background: #666666;
+                color: #FFFFFF;
+            }
+            .buyButton{
+                button{
+                    margin-top: 40px;
+                    margin-bottom: 32px;
+                    width: 167px;
+                    height: 42px;
+                    border: 0;
+                    background: linear-gradient(180deg, #FFC908 0%, #FFBA08 100%);
+                    box-shadow: 0px 0px 15px rgba(255, 146, 17, 0.5);
+                    border-radius: 4px;
+                }
+                button:hover{
+                    background: linear-gradient(180deg, #F5BF00 0%, #F0AD00 100%);
+                }
+            }
+        }
+    }  
+    .productDescription{
+        .productDescription__info{
+            display: flex;
+            justify-content: space-between;
+        }
+        .article{
+            font-size: 13px;
+            line-height: 17px;
+            color: #DDDDDD;
+            margin-top: 24px;
+            .text{
+                font-size: 18px;
+                line-height: 23px;
+                color: #000000;
+            }
+        }
+    }
+    .interesting{
+        .interesting__heading{
+
+        }
+        .interesting__slider{
+            .itemCard{
+                .itemCard__img{
+                    width: 240px;
+                    height: 240px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width : 1200px){
+    .cardProduct__wrapper{
+        width: 1136px;
+        margin: auto;
+        .productSlider{
+            width: 656px;
+            display: inline-block;
+            padding-left: 60px;
+            .productSlider__main{
+                padding-top: 80px;
+            }
+            .productSlider__navigation{
+                margin: 0px;
+                width: 608px;
+                padding-top: 24px;
+                .slideNav{
+                    width: 140px;
+                    height: 140px;
+                }
+            }
+        }
+        .content{
+            width: 420px;
+            display: inline-block;
+            float: left;
+            .productName{
+                padding-top: 80px;
+            }
+            .productParametrs__color{
+                display: flex;
+                .colorBar{
+                    padding-left: 100px;
+                }
+            }
+            .productParametrs__size{
+                display: flex;
+            }
+            .sizeTab{
+                padding-top: 24px;
+            }
+        }
+        .interesting{
+            display: inline-block;
+            width: 1136px;
+            padding-top: 64px;
+        }
+    }
+}

@@ -1,4 +1,4 @@
-@media only screen and (max-width : 1199px){
+
 .navigationWrapper{
     width: 100% ;
     margin: auto;
@@ -15,12 +15,15 @@
         }
     }
     .navigation{
-        display: flex;
         width: 55%;
         height: 21px ;
         margin-top: 13px;
         margin-left: 32px;
-        overflow: scroll;
+        overflow-x: auto ;
+        .navigation__bar{
+            display: flex;
+            overflow-x: auto;
+        }
         .navLink{
             margin-left: 24px;
         }
@@ -42,7 +45,7 @@
         color: white;
     }
 }
-}
+
 @media only screen and (min-width : 1200px){
 
     .navigationWrapper{
