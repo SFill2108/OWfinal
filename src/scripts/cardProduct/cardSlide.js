@@ -10,7 +10,14 @@ $('.productSlider__main').slick({
     slidesToScroll: 1,
     asNavFor: '.productSlider__main',
     arrows:false,
-    focusOnSelect: true
+    focusOnSelect: true,
+    mobileFirst: true,
+    responsive: {
+        breakpoint: 1200,
+        settings: {
+            slidesToShow: 6,
+        }
+    }
   });
   $('.itemCard').slick({
     dots: false,
@@ -26,7 +33,6 @@ $('.productSlider__main').slick({
           slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
-          dots: true
         }
       },
       {
