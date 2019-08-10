@@ -4,11 +4,11 @@
     margin-right: auto;
     margin-left: auto;
     .productSlider{
+        max-width:656px;
+        margin: auto;
         .productSlider__main{
             padding-top: 72px;
             justify-content: center;
-            max-width:656px ;
-            margin: auto;
             .slide{
                 img{
                     object-fit: contain;
@@ -46,8 +46,8 @@
             padding-left: 16px;
             padding-right: 16px;
             .colorBar{
-                display: flex;
-                flex-direction: column;
+                // display: flex;
+                // flex-direction: column;
                 .colorBar__color{
                     padding-top: 10px;
                     padding-bottom: 10px;
@@ -111,7 +111,9 @@
     }
     .interesting{
         .interesting__heading{
-
+            font-weight: bold;
+            font-size: 25px;
+            line-height: 32px;
         }
         .interesting__slider{
             .itemCard{
@@ -148,6 +150,9 @@
             width: 420px;
             display: inline-block;
             float: left;
+            .colorBar{
+                display: flex;
+            }
             .productName{
                 padding-top: 80px;
             }
