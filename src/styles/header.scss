@@ -1,6 +1,107 @@
 
-
-
+.navigationWrapper{
+    font-family: 'PT Sans', sans-serif;
+    width: 100%;
+    margin: auto;
+    background-color: black;
+    color: white;
+    height: 48px;
+    position: fixed;
+    z-index: 1;
+    .container{
+        display: flex;
+        align-items: center;
+        padding-top: 8px;
+    }
+    .logo{
+        margin-left: 16px;
+        .logo__text{
+            text-decoration: none;
+            font-size: 24px;
+            color: white;
+        }
+    }
+    .navigation{
+        width: 55%;
+        margin-left: 32px;
+        .navigation__bar{
+            display: flex;
+            overflow-x: auto;
+            .navLink{
+                margin-right: 24px;
+                a{
+                    color: white;
+                }
+            }
+        }
+        .navigation__bar::-webkit-scrollbar { width: 0 !important }
+    }
+    .cart{
+        padding-left: 16px;
+        .cart__order{
+            display: none;
+        }
+    }
+}
+@media only screen and (min-width : 400px){
+.navigationWrapper{
+    background: linear-gradient(267.53deg, rgba(0, 0, 0, 0) 0.07%, #0C0C0C 99.93%);
+    .container{
+        width: 400px;
+        margin: auto;
+    }
+    .cart{
+        display: flex;
+        padding-left: 16px;
+        .cart__order{
+            display: block;
+            padding-left: 8px;
+            a{
+                color: white;
+            }
+        }
+    }
+}
+}
 @media only screen and (min-width : 1200px){
-
+.navigationWrapper{
+    background: linear-gradient(267.53deg, rgba(0, 0, 0, 0) 0.07%, #0C0C0C 99.93%);
+    .container{
+        width: 1136px;
+        margin: auto;
+    }
+    .logo{
+        margin-left: 16px;
+        .logo__text{
+            text-decoration: none;
+            font-size: 24px;
+            color: white;
+        }
+    }
+    .navigation{
+        width: auto;
+        margin-left: 32px;
+        .navigation__bar{
+            display: flex;
+            overflow-x: auto;
+            .navLink{
+                margin-right: 24px;
+                a{
+                    color: white;
+                }
+            }
+        }
+    }
+    .cart{
+        display: flex;
+        padding-left: 383px;
+        .cart__order{
+            display: block;
+            margin-left: 6px;
+            a{
+                color: white;
+            }
+        }
+    }
+}
 }

@@ -1,0 +1,106 @@
+.catalogWrapper{
+    display: flex;
+    flex-direction: column;
+    font-family: 'PT Sans', sans-serif;
+    .topSection{
+        margin-top: 56px;
+        background-color: black;
+        color: white;
+        height: 160px;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 41px;
+        .topSection__name{
+            margin-left: 5%;
+        }
+    }
+    .catalog{
+        margin-top: -80px ;
+        display: flex;
+        flex-wrap: wrap;
+        .catalog__item{
+            width: 45%;
+            margin: 8px;
+            margin-bottom: 32px;
+            .itemCard__info{
+                margin-top: 12px;
+                .itemCard__name{
+                    font-size: 13px;
+                    line-height: 17px;
+                    text-decoration-line: underline;
+                    width: 150px;
+                }
+                .itemCard__title{
+                    font-size: 13px;
+                    line-height: 17px;
+                    margin-top: 4px;
+                }
+                .itemCard__price{
+                    font-size: 16px;
+                    line-height: 21px;
+                    margin-top: 8px;
+                }
+            }
+            .itemCard__img{
+                height: 136px;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+}
+@media (min-width: 1200px) {
+.catalogWrapper{
+    display: flex;
+    flex-direction: column;
+    .topSection{
+        background-color: black;
+        color: white;
+        height: 160px;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 41px;
+        .topSection__name{
+            margin-left: 20%;
+        }
+    }
+    .catalog{
+        margin-top: -80px ;
+        max-width: 1136px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-wrap: wrap;
+        .catalog__item{
+            width: 21%;
+            margin: 8px;
+            margin-bottom: 32px;
+            .itemCard__info{
+                margin-top: 12px;
+                .itemCard__name{
+                    font-size: 13px;
+                    line-height: 17px;
+                    text-decoration-line: underline;
+                }
+                .itemCard__title{
+                    font-size: 13px;
+                    line-height: 17px;
+                    margin-top: 4px;
+                }
+                .itemCard__price{
+                    font-size: 16px;
+                    line-height: 21px;
+                    margin-top: 8px;
+                }
+            }
+            .itemCard__img{
+                height: 240px;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+}
+}
