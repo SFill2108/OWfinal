@@ -1,5 +1,7 @@
 .checkout__wrapper{
-
+    max-width: 1440px;
+    margin: auto;
+    font-family: 'PT Sans', sans-serif;
     .itemSection{
         border-bottom: 1px solid #DDDDDD;
         margin-top: 24px;
@@ -21,6 +23,10 @@
                 margin-left: 8px;
                 margin-right: 8px;
             }
+        }
+        .checkout__productList{
+            display: flex;
+            flex-wrap: wrap;
         }
         .checkout__itemCard{
             display: flex;
@@ -53,6 +59,8 @@
     .form{
         padding-left: 15px;
         margin-top: 48px;
+        display: flex;
+        flex-wrap: wrap;
         .form__field{
             .purpose{
                 font-size: 16px;
@@ -90,13 +98,13 @@
         }
         .form__sendButton{
             margin-top: 24px;
-            background-color: #F2F2F2;;
-            margin-left: -16px;
+            background-color: #F2F2F2;
+            width: 100%;
+            padding-left: -16px;
             .infoBtn{
                 font-size: 13px;
                 line-height: 17px;
                 margin-left: 16px;
-                padding-top: 16px;
             }
             .buyButton{
                 margin-top: 16px;
@@ -119,6 +127,7 @@
             width: 488px;
             .checkout__productList{
                 margin-top: 32px;
+                display: block;
                 .itemCard__img{
                     width: 160px;
                     height: 160px;

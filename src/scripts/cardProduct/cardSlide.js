@@ -19,7 +19,7 @@ $('.productSlider__main').slick({
         }
     }
   });
-  $('.itemCard').slick({
+  $('.itemCardD').slick({
     dots: false,
     infinite: false,
     speed: 300,

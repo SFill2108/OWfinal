@@ -1,0 +1,19 @@
+.footerInfo{
+    max-width: 1440px;
+    margin: auto;
+    font-size: 13px;
+    line-height: 17px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 56px;
+    font-family: 'PT Sans', sans-serif;
+    .footerInfo__block{
+        margin-right: 24px;
+        padding-left: 10px;
+    }
+}
+@media only screen and (min-width : 1200px){
+.footerInfo{
+    margin-top: 80px;
+}
+}

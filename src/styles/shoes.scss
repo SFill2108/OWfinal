@@ -1,6 +1,7 @@
 .catalogWrapper{
     display: flex;
     flex-direction: column;
+    font-family: 'PT Sans', sans-serif;
     .topSection{
         margin-top: 56px;
         background-color: black;
@@ -15,8 +16,6 @@
     }
     .catalog{
         margin-top: -80px ;
-        margin-left: auto;
-        margin-right: auto;
         display: flex;
         flex-wrap: wrap;
         .catalog__item{
@@ -56,7 +55,6 @@
     display: flex;
     flex-direction: column;
     .topSection{
-        margin-top: px;
         background-color: black;
         color: white;
         height: 160px;
@@ -64,7 +62,7 @@
         font-size: 32px;
         line-height: 41px;
         .topSection__name{
-            margin-left: 5%;
+            margin-left: 20%;
         }
     }
     .catalog{
